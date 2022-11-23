@@ -1,2 +1,3 @@
-# csPortfolio
- This is a portfolio for various CS projects I have made a significant contribution to either through school or personal interest.
+# csPortfolio #
+ 
+This folder contains most of the work I did for my cs201 Accelerated Intro to Object Oriented programming class including the final project, exams, and several homework assignments.
