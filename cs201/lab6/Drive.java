@@ -1,4 +1,3 @@
-package labs.lab6;
 
 public class Drive extends Trip{
 	private double gallonsOfGas;

@@ -1,4 +1,3 @@
-package project;
 
 import java.io.File;
 import java.io.FileWriter;
@@ -30,7 +29,7 @@ public class CtaApp {
 		ArrayList<Station> stations = new ArrayList<Station>();
 		
 		try {
-			File stops = new File("src/project/CTAStops.csv");
+			File stops = new File("finalProject/CTAStops.csv");
 			Scanner input = new Scanner(stops);
 			while(input.hasNextLine()) {
 				try {
@@ -733,9 +732,9 @@ public class CtaApp {
 	}
 	public static String transferRoute(Station start, Station end, ArrayList<Line> allLines) {
 		String route = "";
-		String[] colors = start.getColors();
-		int[] startLines = start.getLines();
-		int[] endLines = end.getLines();
+		// String[] colors = start.getColors();
+		// int[] startLines = start.getLines();
+		// int[] endLines = end.getLines();
 		
 		
 		
@@ -878,7 +877,7 @@ public class CtaApp {
 						break;
 					}
 					//Station old = allStations.get(index);
-					Station edit = editStation(allStations, allLines, index, in);
+					//Station edit = editStation(allStations, allLines, index, in);
 					break;
 				case 4: // Search for station
 					searchStation(allStations, in, "");

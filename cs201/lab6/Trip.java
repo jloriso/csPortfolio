@@ -1,4 +1,3 @@
-package labs.lab6;
 
 public abstract class Trip {
 //	Instance variables

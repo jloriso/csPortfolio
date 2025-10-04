@@ -1,5 +1,3 @@
-package project;
-
 public class Point {
 	private double lat;
 	private double log;

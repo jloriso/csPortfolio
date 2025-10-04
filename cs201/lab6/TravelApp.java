@@ -1,4 +1,3 @@
-package labs.lab6;
 
 import java.io.File;
 import java.io.FileWriter;
